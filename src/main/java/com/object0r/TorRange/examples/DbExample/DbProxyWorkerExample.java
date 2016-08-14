@@ -9,9 +9,12 @@ import java.util.Map;
 
 public class DbProxyWorkerExample extends DbProxyWorker
 {
+    DbProxyWorkerManagerExample manager;
+
     public DbProxyWorkerExample(DbProxyWorkerManagerExample manager, int id)
     {
         super(manager, id);
+        this.manager = manager;
     }
 
     @Override

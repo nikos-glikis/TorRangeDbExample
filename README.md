@@ -16,3 +16,4 @@ Notes
 
 - Database information are filled in database.ini
 - To turn off tor change the useTor=true to useTor=false
+- Compile and start scripts are included. To run this you only need maven (mvn) installed

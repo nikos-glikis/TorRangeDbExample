@@ -12,7 +12,7 @@ public class MainDb
             System.out.println("Usage: ");
             System.out.println("java -jar target/TorRangeDbExample-1.0-SNAPSHOT-jar-with-dependencies.jar parameters.ini");
 
-            System.exit(0);
+            System.exit(-1);
         }
 
         try
